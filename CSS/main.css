@@ -1,4 +1,18 @@
-NavBar{
+#NavBar{
   display:flex;
   flex-direction: row;
+}
+
+/* Project page here */
+#CardBox{
+  display:flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  row-gap: 15px;
+}
+
+.Project-Card{
+  background-color: gray;
+  border-radius: 10px;
+  padding: 10px 10px;
 }
